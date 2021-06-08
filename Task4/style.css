@@ -1,0 +1,25 @@
+.box {
+     height: 100%;
+     width: 100%;
+     background:
+     url('/img/ramka\ rabot.png') no-repeat right bottom,
+     url('/img/ramka\ lebot.png') no-repeat left bottom,
+     url('/img/ramka\ letop.png') no-repeat left top,
+     url('/img/ramka\ ratop.png') no-repeat right top,
+     url('/img/ramka\ top\ b.png') repeat-x center top,
+     url('/img/ramka\ bottom\ b.png') repeat-x center bottom,
+     url('/img/ramka\ left\ b.png')repeat-y left center,
+     url('/img/ramka\ right\ b.png') repeat-y right center;
+    }
+ .text-p {
+     border: black solid 5px;
+     padding: 7%;
+     font-size: 1.1rem;
+     white-space: normal;
+ }
+nav {
+     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     background-color: #3df704;
+     background-size: cover;
+     width: 357px;
+}
