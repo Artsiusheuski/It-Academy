@@ -10,7 +10,7 @@
      url('/img/ramka\ left\ b.png')repeat-y left center,
      url('/img/ramka\ right\ b.png') repeat-y right center;
     }
- .text-p {
+.text-p {
      border: black solid 5px;
      padding: 7%;
      font-size: 1.1rem;
