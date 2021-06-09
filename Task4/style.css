@@ -19,6 +19,5 @@
 nav {
      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
      background-color: #3df704;
-     background-size: cover;
-     width: 357px;
+     width: 100%;
 }
