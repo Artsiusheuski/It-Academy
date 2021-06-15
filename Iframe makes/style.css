@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+.body_st {
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: 700;
+}
+.list {
+    background-color:#77f01480;
+    border-bottom: 10px double #057a3a99;
+    width: 100%;
+}
+.size_for_div {
+    text-align: start;
+    width: 25%;
+    display: inline-block;
+    margin-right: 5%;
+}
+.size_for_div_t {
+    margin-left: 20%;
+    margin-right: 0%;
+    width: 10%;
+    white-space: normal;
+    padding-left: 0;
+}
+img:hover {
+    background: #786b59; 
+   } 
+.img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 3px solid #070f0033;
+}
+.text {
+    background: #fff6f0;
+    text-align: center;
+    /* width: 50%; */
+    border-top-right-radius: 20%;
+    border: 5px double #057a3ae6;
+    white-space: normal;
+    display: inline-block;
+}
+.hover:hover {
+    color: #ee81ee;
+}
+.li_m::before {
+    content: "\1F582";
+}
+.li_t::before {
+    content: "\2706";
+
+}
+.navigation {
+    text-align: center;
+    box-shadow: 10px 5px 5px #9d8585;
+    padding: 10px;
+    display: inline-block;
+    width: 45%;
+    margin-left: 2%;
+    margin-top: 30px;
+    border-bottom: 5px solid #ee1770f1 ;
+}
+.p_nav {
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 10px 5px 5px #13010380;
+    border-radius: 10%;
+    background-color: #cfd6f2;
+    border: 3px double #130103f1;
+}
+.main_fon {
+    margin-top: 50px;
+    background: #09b7ec1a;
+}
+.iframe_st {
+    border-bottom: #ff6347 8px double;
+    width: 100%;
+    height: 450px;
+}
+.form {
+    font-weight: 300;
+    white-space: pre;
+    font-family: 'Viaoda Libre', cursive;
+    background-color:#ecd34666;
+}
+.footer_st {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #130103cc;
+    margin-top:80px;
+    color: #ffffff;
+    height: 100px;
+}
+.p_nav_f {
+    color: #ffd900;
+    text-decoration: none;
+}
+.p_nav_f:hover {
+    color: #ff6347;
+}
+.div_ft {
+    text-align: end;
+    width: 200px;
+}
+.fut_text {
+    width: 200px;
+}
+._name {
+    font-size: 20px;
+    color: #abff2e;
+}
