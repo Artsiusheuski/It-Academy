@@ -15,6 +15,7 @@
     margin-right: 5%;
 }
 .size_for_div_t {
+    display: inline-block;
     margin-left: 20%;
     margin-right: 0%;
     width: 10%;
