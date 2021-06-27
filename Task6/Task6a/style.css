@@ -18,7 +18,7 @@ a {
     text-align: center;
 }
 p {
-    display: inline-block;
+    float: left;
 }
 p:before{ 
     content: " ";
@@ -33,6 +33,7 @@ p :hover {
 }
 
 .div_three { 
+    margin-top: 90px;
     text-align:center;
 }
 span {
