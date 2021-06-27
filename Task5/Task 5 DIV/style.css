@@ -1,0 +1,49 @@
+.titel {
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #add8e6;
+    color: blue;
+    text-transform: uppercase;
+}
+.main {
+    width: 100%;
+    position: relative;
+}
+.main_menu {
+    padding-right: 20px;
+    float: left;
+    width: 155px;
+    height: 100%;
+    position: absolute;
+    background-color: #f0e68c;
+}
+.menu_titel {
+    margin-top: 0;
+    padding-top: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+img {
+    margin: 0 20px;
+    width: 200px;
+    float: left;
+}
+ul {
+    list-style-type: disc;
+}
+.sect {
+    margin-left: 175px;
+    min-height: 322px;
+    background: 
+    url(/img/ball_top.png) repeat-y right ,
+    url(/img/ball_top.png) no-repeat right top,
+    url(/img/ball_top.png) no-repeat right bottom;
+}
+
+.atr {
+    padding: 0 20px;
+}
+section > p {
+    text-transform: uppercase;
+}
