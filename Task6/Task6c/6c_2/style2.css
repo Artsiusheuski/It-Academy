@@ -1,0 +1,30 @@
+.titel {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.date_b {
+    color: #008000;
+}
+.date_c {
+    color: #ff0000;
+    font-weight: bold;
+}
+.text_dec {
+    font-style: italic;
+    color: #0000ff;
+}
+a {
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+a[href^="https"] {
+    padding-left: 10px;
+    background: url(/6c_2/ava/extref.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+p {
+    margin: 0;
+}

@@ -1,0 +1,46 @@
+a {
+    color: #2e8b57;
+}
+.div_one {
+    list-style-type: none;
+    text-align: center;
+     }
+ li {
+     display: inline-block;
+     border-right: 3px solid #ff0000;
+     padding: 10px 30px;
+ }
+ li :hover {
+     color:#ff0000;
+ }
+
+.div_two {
+    text-align: center;
+}
+p {
+    display: inline-block;
+}
+p:before{ 
+    content: " ";
+    background: #ff3344;
+    width: 3px;
+    height: 25px;
+    float: left;
+    margin: 0px 30px;
+    }
+p :hover {
+    color: #ff0000;
+}
+
+.div_three { 
+    text-align:center;
+}
+span {
+    margin: 0px 20px;
+    font-size: 20px ;
+    color: #ff0000;
+    font-weight: bold;
+}
+a:hover {
+    color: #ff0000;
+}

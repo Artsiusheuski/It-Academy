@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Ссылки расположены в строку,в результате применения к тегу li  display: inline-block
+        разделители добавлены с пощью border-right. Из достостоинств: простота и функциональность.Один из самых распространенных-->
+    <div class="div_one">
+      <ul>
+        <li><a href="#">первая ссылка</a></li>
+        <li><a href="#">вторая ссылка</a></li>
+        <li><a href="#">третья ссылка</a></li>
+        <li><a href="#">четвертая ссылка</a></li>
+        <li><a href="//http.mail.ru">пятая ссылка</a></li>
+      </ul>
+    </div>
+    <!-- В этом блоке ссылки вложены в блочный тег<p> ,которому также прописан  display: inline-block.
+      разделительные линии добавлены с помощью :before. Отличие от первого блока,это больший"вес" при одинаковом функционале.-->
+    <div class="div_two">
+      <p><a href="">первая ссылка</a></p>
+      <p><a href="">вторая ссылка</a></p>
+      <p><a href="">третья ссылка</a></p>
+      <p><a href="">четвертая ссылка</a></p>
+      <p><a href="">пятая ссылка</a></p>
+    </div>
+    <!-- Этот блок как пример "кастыля".Cсылки распоожены в строку,так как они изначально inline.
+         разделители добавлены с помощью кода,который завернут в <span>. этот способ самый не функциональый. Его редко применяют.-->
+    <div class="div_three">
+     <a href="https">Диваны</a><span> &#124; </span>
+     <a href="https">Кровати</a><span> &#124; </span>
+     <a href="https">Кресла</a><span> &#124; </span>
+     <a href="https">Стулья</a><span> &#124; </span>
+     <a href="http">Пуфы</a>
+    </div>
+  </body>
+</html>

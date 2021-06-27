@@ -1,0 +1,27 @@
+.titel {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 20px;
+}
+.date_b {
+    color: #008000;
+}
+.date_c {
+    color: #ff0000;
+    font-weight: bold;
+}
+.text_dec {
+    font-style: italic;
+    color: #0000ff;
+}
+p a::before {
+    content: url(/6c_1/ava/extref.png);
+} 
+a {
+    color: #0000ff;
+    font-weight: bold;
+    text-decoration: none;
+}
+p {
+    margin: 0;
+}
