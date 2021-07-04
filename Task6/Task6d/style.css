@@ -1,0 +1,13 @@
+.stars {
+   text-align: left;
+}
+.star_red {
+   background: url(/img/star_non.png) no-repeat;
+   display: inline-block;
+   width: 76px;
+   height: 78px;
+}
+.star_red:hover,
+.star_red:hover~.star_red {
+   background: url(/img/star_red.png);
+}

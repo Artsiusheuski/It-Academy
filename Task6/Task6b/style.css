@@ -1,0 +1,26 @@
+.style {
+    border-collapse: collapse;
+}
+ td {
+    width: 50px;
+    height: 50px;
+    border: solid #808080 1px;
+}
+tr:nth-child(odd) td:nth-child(even),
+tr:nth-child(even) td:nth-child(odd) {
+    background: #000000;
+}
+tr:first-child,
+tr:last-child,
+table.style td:first-child,
+table.style td:last-child {
+    background-color: #90ee90;
+    width: 20px;
+}
+tr:first-child,
+tr:last-child,
+.style tr:first-child td,
+.style tr:last-child td {
+    background-color: #90ee90;
+    height: 20px;
+}
