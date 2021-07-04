@@ -1,0 +1,37 @@
+table {
+    border-collapse: collapse;
+}
+.td_titel {
+    text-align: center;
+    padding: 10px;
+    color: blue;
+    font-weight: bold;
+    background-color: #add8e6;
+    text-transform: uppercase;
+}
+.p_titel {
+    text-align: center;
+    font-weight: bold;
+}
+.td_content .p_titel {
+    text-transform: uppercase;
+}
+.td_spis {
+    vertical-align: top;
+    width: 175px;
+    background-color: #f0e68c;
+}
+.clear {
+    clear: both;
+}
+.td_content {
+    padding-left: 15px;
+    background:
+    url(/img/ball_top.png) repeat-y right, 
+    url(/img/ball_top.png) no-repeat right top, 
+    url(/img/ball_top.png) no-repeat right bottom;
+}
+img {
+    float: left;
+    padding-right: 20px;
+}
