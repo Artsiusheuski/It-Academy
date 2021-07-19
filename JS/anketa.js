@@ -1,9 +1,9 @@
 
-let name = prompt ('Ваше имя?',"");
-let secondName = prompt ('Ваше отчество?',"");
-let surName = prompt ('Ваша фамилия?',"");
-let age = parseInt(prompt('Ваш возраст?',""));
-let gender = (confirm('Ваш пол мужской?',"")) ? "мужской" : "женский";
+let name = prompt ('Ваше имя?');
+let secondName = prompt ('Ваше отчество?');
+let surName = prompt ('Ваша фамилия?');
+let age = parseInt(prompt('Ваш возраст?'));
+let gender = (confirm('Ваш пол мужской?')) ? "мужской" : "женский";
 let pension = ((gender === "мужской" && age >= 60) || (gender === "женский" && age >= 55)) ? "да" : "нет";
 
 alert('ваше ФИО:' + ' ' + name + ' ' + secondName + ' ' + surName +
