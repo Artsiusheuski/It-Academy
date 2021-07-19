@@ -44,6 +44,21 @@
     }
 }
 
+@media(max-width:1200px) {
+    .section_one {
+        max-width: 1200px;
+    }
+    .style_apple {
+        margin-left:5px;
+    }
+    .main_best, .main_h1 {
+        font-size: 45px;
+    }
+    .main_apple_img {
+        position: relative;
+        margin-left: 500px;
+    }
+}
 @media(max-width:992px) {
     .section_one {
         max-width: 992px;
