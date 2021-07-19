@@ -109,21 +109,6 @@ a {
 .main_apple_img img {
     position: relative;
 }
-@media(max-width:1200px) {
-    .section_one {
-        max-width: 1200px;
-    }
-    .style_apple {
-        margin-left:5px;
-    }
-    .main_best, .main_h1 {
-        font-size: 45px;
-    }
-    .main_apple_img {
-        position: relative;
-        margin-left: 500px;
-    }
-}
 
 /* SECTION_TWO */
 
@@ -194,7 +179,6 @@ a {
     justify-content: flex-end;
 }
 .section_three figure img {
-    position: relative;
     max-width: 393px;
     max-height: 276px;
 }
@@ -273,7 +257,6 @@ figcaption {
 }
 .figure_blog1 {
     background: url(/images/blog1.png) 0 0/100% no-repeat;
-    position: relative;
  }
 .figure_blog1:hover {
      z-index: 1;
@@ -281,7 +264,6 @@ figcaption {
  }
 .figure_blog2 {
     background: url(/images/blog2.png) 0 0/100%  no-repeat;
-    position: relative;
 }
 .figure_blog2:hover {
     z-index: 1;
@@ -289,15 +271,13 @@ figcaption {
 }
 .figure_blog3 {
     background: url(/images/blog3.png) 0 0/100%  no-repeat;
-    position: relative;
 }
 .figure_blog3:hover {
     z-index: 1;
     transform: scale(1.2);
 }
 .five_figure_fon {
-    position: relative;
-    background-image: url(/images/blu_img.png) ;
+    background-image: url(/images/blu_img.png);
     margin-top: calc(480px - 178px);
     height: 178px;
 }
